@@ -25,7 +25,7 @@ describe('Test Home API', function () {
 
     it('Response should not be null', function () {
         // null인 응답이 오면 안 된다.
-        assert.equal(true, true);
+        assert.notEqual(null, null);
     });
 
     it('1 is 1', function () {
